@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,18 +13,28 @@
 }
 
 .logo-cabecalho{
-    height: 45px;
-    margin-top: 40px;
+    height: 47px;
+    margin-top: 33px;
     margin-left: 100px;
 }
 
 .palavras-cabecalho{
     height: 65px;
-    font-size: 19px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #26282b
     
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #666d70;
+    font-size: 23px;
+}
+
+a:hover{
+    color: #f9a02c;
 }
 
