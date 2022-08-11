@@ -29,8 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #26282b
-    
+    background-color: #26282b;
 }
 
 a {
@@ -93,10 +92,95 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 
 .img-tenis {
     width: 420px;
     margin-right: 80px;
+}
+
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.div-faleconosco {
+    width: 350px;
+}
+
+.div-a-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-da-entrega {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-faleconcosco {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.a-email {
+    font-size: 19px;
+    color: #f9a02c;
+}
+
+.pnormal-faleconosco {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.imagem-cartoes {
+    width: 450px;
+}
+
+.imagem-correios {
+    width: 180px;
+}
+
+.p-entrega {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.a-div-footer {
+    color: #f9a02c;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.p-entrega1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.pnormal-faleconosco-a {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+
+.div-footer-escuro {
+    background-color: #3b3d40;
+}
+
+.footer-escuro {
+    background-color: #3b3d40;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-logo-footer {
+    width: 100px;
 }
