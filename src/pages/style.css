@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -38,3 +44,59 @@ a:hover{
     color: #f9a02c;
 }
 
+
+.Div-img-promoçao {
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-div-promoçao {
+    width: 88%;
+}
+
+
+.p1 {
+    font-size: 30px;
+    color: #3b3d40;
+    padding: 12.5px;
+}
+
+.p2 {
+    font-size: 17px;
+}
+
+
+.div-display-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 120px;
+    margin-top: 100px;
+}
+
+
+.div-info-1 {
+    text-align: center;
+}
+
+.div-info-2 {
+    text-align: center;
+}
+
+.div-info-3 {
+    text-align: center;
+}
+
+
+.div-tenis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.img-tenis {
+    width: 420px;
+    margin-right: 80px;
+}
