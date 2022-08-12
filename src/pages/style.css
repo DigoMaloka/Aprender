@@ -24,7 +24,7 @@ body {
     margin-left: 100px;
 }
 
-.palavras-cabecalho{
+.div-palavras-cabecalho{
     height: 65px;
     display: flex;
     align-items: center;
@@ -33,8 +33,6 @@ body {
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     color: #666d70;
     font-size: 23px;
 }
